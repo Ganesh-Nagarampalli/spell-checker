@@ -1,7 +1,7 @@
 async function checkSpelling() {
     const word = document.getElementById("wordInput").value;
     try {
-        const response = await fetch("/.netlify/functions/check_spelling", {
+        const response = await fetch("/.netlify/functions/check-spelling", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
